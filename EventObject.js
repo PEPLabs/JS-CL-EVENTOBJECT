@@ -1,3 +1,4 @@
+
 /**
  * The Event Object is provided whenever an event fires. In this case, when onclick happens, the eventObject is
  * actually sent as the first argument to whatever function is used to handle the onclick.
@@ -9,12 +10,22 @@
  *
  * https://developer.mozilla.org/en-US/docs/Web/API/Event
  */
+
 document.body.onclick = updateContentWithEventObjectTarget;
 let content = document.getElementById("content");
+
+
+
 /**
  * TODO: set the innerText of content to the target property of the event object.
  * that target property can simply be retrieved via eventObject.target, so when you click on something on the page,
  * some information about the clicked element will be displayed.
  */
 function updateContentWithEventObjectTarget(eventObject){
+    // code here
 }
+
+
+
+/* OPTIONAL PRACTICE: If you want more practice later, explore other properties of the Event object. Print some of the
+properties to the developer console of your browser using console.log(). */
