@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testClickParagraph",
+          "label": "Verify paragraph click updates content",
+          "description": "Simulates a click on a <p> element and asserts that the 'content' element displays '[object HTMLParagraphElement]'."
+        },
+        {
+          "methodName": "testClickButton",
+          "label": "Verify button click updates content",
+          "description": "Simulates a click on a <button> element and asserts that the 'content' element displays '[object HTMLButtonElement]'."
+        },
+        {
+          "methodName": "testClickHeader",
+          "label": "Verify header click updates content",
+          "description": "Simulates a click on an <h1> element and asserts that the 'content' element displays '[object HTMLHeadingElement]'."
+        },
+        {
+          "methodName": "testClickAnchor",
+          "label": "Verify anchor click updates content",
+          "description": "Simulates a click on an <a> element and asserts that the 'content' element displays the URL 'https://developer.mozilla.org/en-US/docs/Web/API/Event'."
+        }
+      ]
+    }
+  ]
+}
